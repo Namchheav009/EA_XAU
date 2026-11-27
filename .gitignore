@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# React
+node_modules/
+dist/
+build/
+
+# MetaTrader
+*.ex5
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# AI models
+*.pkl
+*.joblib
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
